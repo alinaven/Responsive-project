@@ -170,7 +170,7 @@ p {
   margin-top: 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 577px) {
   .project-overview {
     display: none;
   }
