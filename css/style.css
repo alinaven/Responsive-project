@@ -1,13 +1,12 @@
 :root {
-  --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
+  --primary-color: #f7d8ba;
+  --secondary-color: #acddde;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
   margin: 60px auto;
   max-width: 100%;
-  margin-top: 100px !important;
 }
 
 h1,
@@ -58,12 +57,20 @@ p {
 .contact-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
-  color: white;
+  color: rgb(61, 58, 52);
+}
+
+.contact-link:hover {
+  color: black;
 }
 
 .about-link {
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: rgb(61, 58, 52);
+}
+.about-link:hover {
+  color: black;
 }
 
 .homepage-link {
@@ -104,5 +111,11 @@ p {
   text-transform: capitalize;
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
-  color: white;
+  color: rgb(61, 58, 52);
+}
+
+.homepage-hero {
+  background-color: #ffe7c7;
+  padding: 30px;
+  padding-top: 140px;
 }
