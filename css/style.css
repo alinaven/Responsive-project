@@ -100,7 +100,7 @@ p {
 .email-link {
   display: flex;
   justify-content: center;
-  color: var(--button-color);
+  color: var(--primary-color);
   font-size: 28px;
   text-decoration: none;
 }
@@ -134,6 +134,16 @@ p {
   padding-top: 140px;
 }
 
+.about-me-header {
+  background-color: #ffe7c7;
+  padding: 20px;
+  padding-top: 140px;
+}
+
+.about-me-header h1 {
+  font-size: 60px !important;
+}
+
 .work-introduction {
   padding: 50px;
   text-align: center;
@@ -153,5 +163,15 @@ p {
 @media (min-width: 768px) {
   .work {
     background: linear-gradient(#acddde, #f7d8ba) no-repeat center/2px 100%;
+  }
+}
+
+.project-overview {
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .project-overview {
+    display: none;
   }
 }
