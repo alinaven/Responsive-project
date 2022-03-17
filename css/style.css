@@ -18,21 +18,27 @@ h3 {
 
 h1 {
   font-size: 96px !important;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
 }
 
 h2 {
   font-size: 48px !important;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
 }
 
 h3 {
   font-size: 24px !important;
   opacity: 0.7;
+  font-family: "Poppins", sans-serif;
 }
 
 p {
   border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
+  font-family: "Poppins", sans-serif;
 }
 
 .navigation-links {
