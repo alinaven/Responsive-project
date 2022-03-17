@@ -1,6 +1,7 @@
 :root {
   --primary-color: #f7d8ba;
   --secondary-color: #acddde;
+  --button-color: #fef2dd;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -15,16 +16,22 @@ h3 {
   margin: 0;
 }
 
+.navbar-brand {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+
 h1 {
   font-size: 96px !important;
   font-family: "Playfair Display", serif;
   font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 h2 {
   font-size: 48px !important;
   font-family: "Playfair Display", serif;
-  font-weight: bold;
 }
 
 h3 {
@@ -55,9 +62,10 @@ p {
 }
 
 .contact-link {
-  background: var(--primary-color);
+  background: var(--button-color);
   box-shadow: var(--box-shadow);
   color: rgb(61, 58, 52);
+  text-align: center;
 }
 
 .contact-link:hover {
@@ -65,9 +73,10 @@ p {
 }
 
 .about-link {
-  background: var(--primary-color);
+  background: var(--button-color);
   box-shadow: var(--box-shadow);
   color: rgb(61, 58, 52);
+  text-align: center;
 }
 .about-link:hover {
   color: black;
@@ -91,7 +100,7 @@ p {
 .email-link {
   display: flex;
   justify-content: center;
-  color: var(--primary-color);
+  color: var(--button-color);
   font-size: 28px;
   text-decoration: none;
 }
@@ -109,13 +118,40 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-  background: var(--primary-color);
+  background: var(--button-color);
   box-shadow: var(--box-shadow);
   color: rgb(61, 58, 52);
+}
+
+.app-link:hover {
+  color: black;
+  color: var(--button-color);
 }
 
 .homepage-hero {
   background-color: #ffe7c7;
   padding: 30px;
   padding-top: 140px;
+}
+
+.work-introduction {
+  padding: 50px;
+  text-align: center;
+  background-color: #fef2dd;
+}
+
+.work-introduction p {
+  font-size: 25px;
+  line-height: 25px;
+  padding: 0;
+  margin: 0;
+}
+
+.work {
+  margin-top: 20px;
+}
+@media (min-width: 768px) {
+  .work {
+    background: linear-gradient(#acddde, #f7d8ba) no-repeat center/2px 100%;
+  }
 }
