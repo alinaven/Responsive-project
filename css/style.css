@@ -21,6 +21,14 @@ h3 {
   font-weight: bold;
 }
 
+.navigation-bar {
+  color: green;
+}
+
+.nav-link {
+  font-family: "Poppins", sans-serif;
+}
+
 h1 {
   font-size: 96px !important;
   font-family: "Playfair Display", serif;
