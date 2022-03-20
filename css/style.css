@@ -108,7 +108,7 @@ p {
 .contact-page {
   background-color: var(--primary-color);
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   margin: 40px;
   border-radius: 10px;
 }
@@ -152,15 +152,17 @@ p {
 
 .about-me-header {
   background-color: #ffe7c7;
-  padding: 100px;
-  padding-top: 140px;
+  padding: 80px;
+  padding-top: 120px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .about-me-header h1 {
   font-size: 60px !important;
 }
 
-.about-me-intro {
+.content-header {
   padding: 40px;
   padding-top: 60px;
 }
@@ -176,6 +178,24 @@ p {
   line-height: 25px;
   padding: 0;
   margin: 0;
+}
+
+.work-intro {
+  padding: 20px;
+  padding-top: 80px;
+}
+
+.work-overview {
+  padding: 10px;
+}
+.work-overview h4 {
+  text-align: center;
+  padding: 5px;
+}
+.work-overview p {
+  text-align: center;
+  padding: 5px;
+  font-size: 14px;
 }
 
 .work {
@@ -212,4 +232,13 @@ p {
   .mobile-image {
     display: none;
   }
+}
+
+.tools-used {
+  padding: 30px;
+  font-family: "Playfair Display", serif;
+}
+
+.tools-used p {
+  text-align: left;
 }
