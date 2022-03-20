@@ -21,10 +21,6 @@ h3 {
   font-weight: bold;
 }
 
-.navigation-bar {
-  color: green;
-}
-
 .nav-link {
   font-family: "Poppins", sans-serif;
 }
@@ -173,7 +169,7 @@ p {
 .about-me-header {
   background-color: #ffe7c7;
   padding: 80px;
-  padding-top: 120px;
+  padding-top: 130px;
   padding-left: 30px;
   padding-right: 30px;
 }
@@ -233,7 +229,7 @@ p {
 }
 @media (min-width: 768px) {
   .work {
-    background: linear-gradient(#acddde, #f7d8ba) no-repeat center/2px 100%;
+    background: linear-gradient(#f7d8ba, #ffe7c7) no-repeat center/2px 100%;
   }
 }
 
@@ -278,9 +274,24 @@ p {
 }
 .about-me-text h6 {
   font-size: 20px;
-  opacity: 0.7;
 }
 
 .about-me-text p {
   font-size: 14px;
+  opacity: 0.8;
+}
+
+footer {
+  padding: 30px;
+  font-family: "Poppins", serif;
+  font-weight: bold;
+  font-size: 12px;
+}
+.social-icons {
+  text-align: right;
+  font-size: 17px;
+}
+.social-icons i {
+  padding-left: 20px;
+  padding-right: 20px;
 }
