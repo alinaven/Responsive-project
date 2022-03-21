@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="About Alina - Front-end developer based in Europe">
     <link rel="stylesheet" href="/css/style.css" />
-    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,700;1,700&family=Bebas+Neue&family=Knewave&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Major+Mono+Display&family=PT+Mono&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -62,12 +62,13 @@
     </header>
   <body>
     <div class="about-me-header">
-    <h1 class="center-text">Hi, I am Alina 👋🏼</h1>
+    <h1 class="center-text desktop-image">Hi, I am Alina 👋🏼</h1>
+    <h1 class="center-text mobile-image">I'm Alina! 👋🏼</h1>
     <p class="center-text">Learning front-end development.</p>
     </div>
   <div class="about-me-text p-5">
-    <h6>A little bit about me ↓</p>
-    <p>Currently living in Nijmegen, Netherlands and grown up in Germany. Running, taking photos, reading, baking, listening to music, going to concerts, plants and learning anything new. Currently working on my keyboard and Norwegian skills and working on the coding skills through the SheCodes Basics, Plus, React and Responsive courses. </p>
+    <h6 data-aos="fade-right" data-aos-duration="1000">A little bit about me ↓</p>
+    <p data-aos="fade-up" data-aos-duration="1000">Currently living in Nijmegen, Netherlands and grown up in Germany. Running, taking photos, reading, baking, listening to music, going to concerts, plants and learning anything new. Currently working on my keyboard and Norwegian skills and working on the coding skills through the SheCodes Basics, Plus, React and Responsive courses. </p>
   </div>
   
     </div>
@@ -75,32 +76,33 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-4">
-            <img src="/images/yoga.png" class="img-fluid p-2 shadow rounded" alt="Screenshot of Yoga project"/>
+            <img data-aos="zoom-in" data-aos-duration="1000" src="/images/WeatherApp.png" class="img-fluid p-2 shadow rounded" alt="Screenshot of Yoga project"/>
           </div>
           <div class="col-sm-4">
             <img
-              src="/images/weather.png"
+              src="/images/Dictionary.png"
               class="img-fluid p-2 shadow rounded"
               alt="Screenshot of Weather project built with React"
+              data-aos="zoom-in" data-aos-duration="1000"
             />
           </div>
           <div class="col-sm-4">
-            <img src="/images/yogurt.png" class="img-fluid p-2 shadow rounded" alt="Screenshot of landing page project"/>
+            <img data-aos="zoom-in" data-aos-duration="1000" src="/images/CandyCrush_V1.png" class="img-fluid p-2 shadow rounded" alt="Screenshot of landing page project"/>
           </div>
         </div>
       </div>
     </div>
     </div>
-    <div id="contact" class="mt-5 contact-page shadow">
+    <div  id="contact" class="mt-5 contact-page shadow">
       <h4 class="center-text"><a href="/contact.html">📮 Contact me</a></h2>
     </div>
     <div>
       <footer>
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-sm-8">
         Open-source coded by Alina 👩🏼‍💻
         </div>
-        <div class="col-md-8 social-icons">
+        <div class="col-sm-4 social-icons">
         <i class="fab fa-instagram"></i>
         <i class="fab fa-github"></i>
         <i class="fab fa-linkedin"></i>
@@ -108,5 +110,9 @@
         </div>
       </footer>
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
   </body>
 </html>
