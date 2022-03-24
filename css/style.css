@@ -371,3 +371,15 @@ footer .social-icons i {
 .push {
   margin-left: auto;
 }
+
+.coding-skills img {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.coding-skills p {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
