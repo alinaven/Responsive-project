@@ -18,6 +18,7 @@
     />
      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
@@ -26,7 +27,7 @@
 <script src="https://kit.fontawesome.com/de58a1a140.js" crossorigin="anonymous"></script>
   </head>
   <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navbar">
           <div class="container">
             <a class="navbar-brand" href="/index.html">/ Alina /</a>
             <button
@@ -84,7 +85,7 @@
           </div>
           <div class="col-md-6">
             <h2 class="mb-3 mt-3">Weather app</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel eos eveniet alias temporibus deserunt veritatis minima fugiat explicabo eum dolore.</p>
+            <p>A weather app first built with HTML, CSS, Javascript and later rebuilt in React. Pulling live weather data from an API you can look up both the weather for your current location or search for any other city.</p> 
             <div class="mt-5 mb-5 project-button"><a data-aos="zoom-in" data-aos-duration="1000" href="https://inspiring-hopper-e2d23c.netlify.app/" target="_blank" class="app-link" title="To project">Launch Weather App</a></div>
           </div>
           <div class="col-md-6 mobile-image mt-3">
@@ -94,7 +95,7 @@
         <div class="row mt-5 middle-row">
           <div class="col-md-6">
             <h2 class="mb-3">Dictionary app</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel eos eveniet alias temporibus deserunt veritatis minima fugiat explicabo eum dolore.</p>
+            <p>A dictionary app built with React. Integrating two APIs, the dictionary shows definitions, synonyms, information on pronunciation and pictures related to the search.</p>
             <div class="mb-5 mt-5 project-button">
               <a data-aos="zoom-in" data-aos-duration="1500" href="https://affectionate-bardeen-9e70d9.netlify.app" class="app-link" target="_blank" title="To project">Launch Dictionary App</a>
             </div>
@@ -110,7 +111,7 @@
           </div>
           <div class="col-md-6">
             <h2 class="mb-3">Game Rebuild</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel eos eveniet alias temporibus deserunt veritatis minima fugiat explicabo eum dolore.</p>
+            <p>A game rebuild based on HTML, CSS and Javascript, using Drag-and-Drop elements, JavaScript inbuilt methods and Flexbox.</p>
             <div class="mt-5 mb-5 project-button">
               <a data-aos="zoom-in" data-aos-duration="1500" href="https://youthful-swartz-d93041.netlify.app/" class="app-link" target="_blank" title="To project">Launch Game Rebuild</a>
             </div>
@@ -138,8 +139,10 @@
 
     </div>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="scrolling.js"></script>
 <script>
     AOS.init();
 </script>
+  <script src="scrolling.js"></script>
 </body>
 </html>
