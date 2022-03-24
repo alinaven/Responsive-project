@@ -17,26 +17,6 @@ h3 {
   margin: 0;
 }
 
-.navbar-brand {
-  font-family: "Playfair Display", serif;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-#navbar {
-  transition: ease-in-out 1s;
-  background-color: transparent !important;
-}
-
-#navbar.scrolled {
-  background-color: #ffffff !important;
-}
-
-.nav-link {
-  font-family: "Poppins", sans-serif;
-  text-align: right;
-}
-
 h1 {
   font-size: 96px !important;
   font-family: "Playfair Display", serif;
@@ -68,10 +48,32 @@ p {
   font-family: "Poppins", sans-serif;
 }
 
+/* Navigation bar */
+.navbar-brand {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#navbar {
+  transition: ease-in-out 1s;
+  background-color: transparent !important;
+}
+
+#navbar.scrolled {
+  background-color: #ffffff !important;
+}
+
+.nav-link {
+  font-family: "Poppins", sans-serif;
+  text-align: right;
+}
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
   justify-content: center;
+  align-items: center;
 }
 
 .navigation-links a {
@@ -133,13 +135,6 @@ p {
   border-radius: 10px;
 }
 
-@media (min-width: 700) {
-  .contact-page {
-    margin: 40px auto;
-    max-width: 700px;
-  }
-}
-
 .contact-page a:hover {
   color: black;
 }
@@ -189,6 +184,8 @@ p {
   padding-top: 140px;
 }
 
+/* Typewriter effect */
+
 .homepage-hero .typewriter {
   animation: typewriter 4s steps(8) 1s 1 normal both,
     blinkTextCursor 1200ms steps(8) infinite;
@@ -231,7 +228,6 @@ p {
 
 .content-header {
   padding: 40px;
-  padding-top: 60px;
 }
 
 .work-introduction {
@@ -248,6 +244,10 @@ p {
 }
 
 .work-intro {
+  padding: 20px;
+  padding-top: 80px;
+}
+.contact-intro {
   padding: 20px;
   padding-top: 80px;
 }
@@ -278,51 +278,9 @@ p {
 .work {
   margin-top: 20px;
 }
-@media (min-width: 768px) {
-  .work {
-    background: linear-gradient(#f7d8ba, #ffe7c7) no-repeat center/2px 100%;
-  }
-}
 
 .project-overview {
   margin-top: 20px;
-}
-
-@media (max-width: 577px) {
-  .project-overview {
-    display: none;
-  }
-}
-
-@media (max-width: 768px) {
-  .desktop-image {
-    display: none;
-  }
-  .mobile-image {
-    display: block;
-  }
-
-  .app-link {
-    display: block;
-    text-align: center;
-    max-width: 250px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-
-  .navigation-links {
-    padding: 25px;
-    font-size: 14px;
-  }
-}
-
-@media (min-width: 768px) {
-  .desktop-image {
-    display: block;
-  }
-  .mobile-image {
-    display: none;
-  }
 }
 
 .tools-used {
@@ -357,6 +315,8 @@ p {
   padding: 30px;
   line-height: 30px;
 }
+
+/* Footer */
 
 footer {
   padding: 30px;
@@ -410,4 +370,56 @@ footer .social-icons i {
   font-size: 10px;
   font-family: "Poppins", sans-serif;
   text-align: center;
+}
+
+/* @Media queries */
+
+@media (min-width: 768px) {
+  .work {
+    background: linear-gradient(#f7d8ba, #ffe7c7) no-repeat center/2px 100%;
+  }
+}
+
+@media (max-width: 577px) {
+  .project-overview {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .desktop-image {
+    display: none;
+  }
+  .mobile-image {
+    display: block;
+  }
+
+  .app-link {
+    display: block;
+    text-align: center;
+    max-width: 250px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .navigation-links {
+    padding: 25px;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  .desktop-image {
+    display: block;
+  }
+  .mobile-image {
+    display: none;
+  }
+}
+
+@media (min-width: 700) {
+  .contact-page {
+    margin: 40px auto;
+    max-width: 700px;
+  }
 }
